@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9C8B9A632555D1AC0035DCA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A622555D1AC0035DCA9 /* main.swift */; };
+		9C8B9A6A2555D1DE0035DCA9 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A692555D1DE0035DCA9 /* Employee.swift */; };
+		9C8B9A6C2555D2090035DCA9 /* Hourly_Paid_Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A6B2555D2090035DCA9 /* Hourly_Paid_Employee.swift */; };
+		9C8B9A6E2555D2200035DCA9 /* Commission_Paid_Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A6D2555D2200035DCA9 /* Commission_Paid_Employee.swift */; };
+		9C8B9A702555D2370035DCA9 /* Fixed_Paid_Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A6F2555D2370035DCA9 /* Fixed_Paid_Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		9C8B9A5F2555D1AC0035DCA9 /* PayRoll_Swift_Inheritence_Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PayRoll_Swift_Inheritence_Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8B9A622555D1AC0035DCA9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9C8B9A692555D1DE0035DCA9 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9C8B9A6B2555D2090035DCA9 /* Hourly_Paid_Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hourly_Paid_Employee.swift; sourceTree = "<group>"; };
+		9C8B9A6D2555D2200035DCA9 /* Commission_Paid_Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commission_Paid_Employee.swift; sourceTree = "<group>"; };
+		9C8B9A6F2555D2370035DCA9 /* Fixed_Paid_Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixed_Paid_Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9C8B9A622555D1AC0035DCA9 /* main.swift */,
+				9C8B9A692555D1DE0035DCA9 /* Employee.swift */,
+				9C8B9A6B2555D2090035DCA9 /* Hourly_Paid_Employee.swift */,
+				9C8B9A6D2555D2200035DCA9 /* Commission_Paid_Employee.swift */,
+				9C8B9A6F2555D2370035DCA9 /* Fixed_Paid_Employee.swift */,
 			);
 			path = PayRoll_Swift_Inheritence_Polymorphism;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8B9A6C2555D2090035DCA9 /* Hourly_Paid_Employee.swift in Sources */,
 				9C8B9A632555D1AC0035DCA9 /* main.swift in Sources */,
+				9C8B9A6E2555D2200035DCA9 /* Commission_Paid_Employee.swift in Sources */,
+				9C8B9A6A2555D1DE0035DCA9 /* Employee.swift in Sources */,
+				9C8B9A702555D2370035DCA9 /* Fixed_Paid_Employee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
